@@ -79,7 +79,7 @@ program readandtransform
 	integer											:: fi,si,ti,ri,hi
 	
 	count1=0
-	
+
 	open(1,file='datasets_data.csv', status='old',err=98)
 	open(9,file='legende.dat')
 	
